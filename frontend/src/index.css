@@ -1,1 +1,16 @@
 @import "tailwindcss";
+@import "./styles/colors.css";
+@import "./styles/typography.css";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Newsreader:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+body {
+
+  margin: 0;
+
+  background: var(--bg-main);
+
+  color: var(--text-primary);
+
+  font-family: var(--font-body);
+
+}

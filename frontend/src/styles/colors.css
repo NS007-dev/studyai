@@ -1,0 +1,24 @@
+:root {
+
+    /* Backgrounds */
+    --bg-main: #FAF8F2;
+    --bg-card: #FFFDF8;
+
+    /* Text */
+    --text-primary: #3A3A3A;
+    --text-secondary: #6F6A63;
+
+    /* Brand */
+    --sage: #A8C69F;
+    --sage-hover: #96B58D;
+
+    /* Accent */
+    --yellow: #F8E7A1;
+    --blue: #C8DDF2;
+    --pink: #F4D7D7;
+
+    /* Feedback */
+    --success: #B9D8B3;
+    --error: #E9B5AE;
+
+}

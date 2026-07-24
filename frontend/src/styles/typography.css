@@ -1,5 +1,5 @@
 :root {
-    --font-heading: "Newsreader", serif;
-    --font-body: "Nunito", sans-serif;
+    --font-display: "Newsreader", serif;
+    --font-text: "Nunito", sans-serif;
     --font-handwriting: "Caveat", cursive;
 }

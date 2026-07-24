@@ -1,3 +1,5 @@
+import Button from "../ui/Button/Button";
+
 function Hero() {
     return (
         <section className="flex min-h-[85vh] flex-col items-center justify-center px-6 text-center">
@@ -18,13 +20,13 @@ function Hero() {
             </p>
 
             <div className="mt-10 flex gap-4">
-                <button className="rounded-xl bg-cyan-500 px-6 py-3 font-semibold text-black transition hover:bg-cyan-400">
-                    Start Chatting
-                </button>
+                <div className="mt-10 flex gap-4">
+                    <Button>Start Studying</Button>
 
-                <button className="rounded-xl border border-slate-700 px-6 py-3 text-white transition hover:border-slate-500">
-                    Learn More
-                </button>
+                    <Button variant="secondary">
+                        Learn More
+                    </Button>
+                </div>
             </div>
         </section>
     );

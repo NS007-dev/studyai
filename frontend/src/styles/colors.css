@@ -1,24 +1,25 @@
 :root {
-
-    /* Backgrounds */
-    --bg-main: #FAF8F2;
-    --bg-card: #FFFDF8;
+    /* The desk / paper */
+    --color-background: #f5f0e6;
+    --color-surface: #fffdf7;
 
     /* Text */
-    --text-primary: #3A3A3A;
-    --text-secondary: #6F6A63;
+    --color-text: #3f3a34;
+    --color-text-muted: #81796f;
 
-    /* Brand */
-    --sage: #A8C69F;
-    --sage-hover: #96B58D;
+    /* StudyAI green */
+    --color-primary: #9fbe98;
+    --color-primary-hover: #8eae87;
 
-    /* Accent */
-    --yellow: #F8E7A1;
-    --blue: #C8DDF2;
-    --pink: #F4D7D7;
+    /* Little moments */
+    --color-accent: #f3d58b;
+    --color-pink: #e8b9b2;
+    --color-blue: #b8d1df;
+
+    /* UI */
+    --color-border: #ded6c8;
 
     /* Feedback */
-    --success: #B9D8B3;
-    --error: #E9B5AE;
-
+    --color-success: #b9d8b3;
+    --color-error: #e5b2ab;
 }

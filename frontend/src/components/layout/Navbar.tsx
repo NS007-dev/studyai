@@ -1,15 +1,31 @@
 function Navbar() {
     return (
-        <nav className="flex items-center justify-between px-8 py-6">
-            <h1 className="text-2xl font-bold text-white">
-                Study<span className="text-cyan-400">AI</span>
-            </h1>
+        <nav className="mx-auto flex max-w-7xl items-center justify-between px-7 py-6">
 
-            <button className="rounded-lg border border-slate-700 px-5 py-2 text-white hover:border-slate-500">
-                Get Started
+            <a
+                href="/"
+                className="font-[var(--font-display)] text-2xl font-bold text-[var(--color-text)]"
+            >
+                Study
+                <span className="text-[var(--color-primary)]">AI</span>
+            </a>
+
+            <button
+                className="
+          font-[var(--font-handwriting)]
+          text-xl
+          text-[var(--color-text-muted)]
+          transition-transform
+          duration-200
+          hover:rotate-[-2deg]
+          hover:text-[var(--color-text)]
+        "
+            >
+                Get started →
             </button>
+
         </nav>
-    )
+    );
 }
 
 export default Navbar;
